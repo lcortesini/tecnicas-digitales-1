@@ -69,7 +69,20 @@
 \section{Introducción}
 %--------------------------------
 
-\textit{Describir brevemente el objetivo del trabajo práctico y para qué se construye el MiniLab.}
+%\textit{Describir brevemente el objetivo del trabajo práctico y para qué se construye el MiniLab.}
+
+En el presente trabajo práctico se propone la construcción de un mini laboratorio
+portátil (MiniLab), el cual será utilizado a lo largo de la materia Técnicas Digitales I
+(TD1).
+El objetivo principal de este dispositivo es proporcionar a cada estudiante una herramienta
+práctica que le permita experimentar, analizar y verificar el funcionamiento de
+circuitos digitales básicos.
+El MiniLab está diseñado para facilitar el aprendizaje mediante la implementación
+de entradas y salidas digitales, indicadores visuales mediante LEDs, y una fuente de
+alimentación regulada. De manera opcional, se incorpora un generador de señal basado
+en un temporizador 555, permitiendo ampliar las experiencias prácticas.
+Este enfoque busca no solo reforzar los conceptos teóricos, sino también desarrollar
+habilidades en el uso de instrumentos y herramientas propias del ámbito electrónico.
 
 \vspace{0.5cm}
 
@@ -77,7 +90,72 @@
 \section{Objetivos}
 %--------------------------------
 
-\textit{Indicar qué se busca lograr con este trabajo (ej: construir el MiniLab, comprender su funcionamiento, etc.).}
+%\textit{Indicar qué se busca lograr con este trabajo (ej: construir el MiniLab, comprender su funcionamiento, etc.).}
+\subsection{Objetivo General}
+Diseñar y construir un mini laboratorio portátil (MiniLab) que permita realizar prácticas de electrónica digital de
+manera autónoma, facilitando la experimentación y comprensión de los conceptos fundamentales de la materia.
+
+\subsection{Objetivos específicos}
+
+\begin{itemize}
+    \item Construir un dispositivo que disponga de entradas y salidas digitales para la prueba
+        de circuitos lógicos
+    \item Implementar indicadores visuales mediante LEDs para representar estados lógicos.
+    \item Incorporar una fuente de alimentación regulada de 5V para el funcionamiento de
+        los circuitos.
+    \item Comprender el funcionamiento y uso de herramientas básicas de laboratorio, tales
+        como multímetro, pinza, alicate y soldador.
+    \item Desarrollar habilidades prácticas en el armado, conexión y verificación de circuitos
+        electrónicos.
+    \item (Opcional) Implementar un generador de señal cuadrada mediante un temporizador
+        555, con frecuencia variable
+\end{itemize}   
+
+\section{Requerimientos del sistema}
+El MiniLab deberá cumplir con las siguientes características funcionales:
+
+\begin{itemize}
+    \item \textbf{Salidas digitales:}
+        \begin{itemize}
+            \item El sistema deberá contar con 6 salidas digitales.
+            \item El nivel lógico bajo (“0”) corresponderá a 0V.
+            \item El nivel lógico alto (“1”) corresponderá a 5V.
+        \end{itemize}
+    \item \textbf{Entradas digitales con indicación luminosa:}
+        \begin{itemize}
+            \item Se deberán implementar 6 entradas para conexión mediante punta de prueba.
+            \item Cada entrada deberá contar con un LED indicador de estado: 
+            \begin{itemize}
+                \item LED apagado: lógico “0”
+                \item LED encendido: lógico “1”
+            \end{itemize}
+        \end{itemize}
+    \item \textbf{Generador de señal (opcional):}
+        \begin{itemize}
+            \item El sistema podrá incluir una salida de señal de onda cuadrada.
+            \item La frecuencia deberá ser ajustable mediante un potenciómetro.
+            \item Rango de frecuencia: 1 Hz a 1 kHz
+        \end{itemize}
+    \item \textbf{Fuente de alimentación:}
+        \begin{itemize}
+            \item El sistema deberá contar con una fuente regulada de 5V.
+            \item La alimentación podrá realizarse mediante:
+                \begin{itemize}
+                    \item Red eléctrica (220V).
+                    \item Batería de 9V (fuente auxiliar).
+                \end{itemize}
+        \end{itemize}
+    \item \textbf{Placas de prototipado:}
+        \begin{itemize}
+            \item Se deberán incluir placas tipo protoboard para el armado de circuitos.
+            \item Cantidad recomendada: 2 protoboards de 830 puntos.
+        \end{itemize}
+    \item \textbf{Herramientas de laboratorio:}
+        \begin{itemize}
+            \item El sistema deberá estar contenido en un gabinete o caja.
+            \item El diseño deberá permitir su transporte y protección de los componentes.
+        \end{itemize}
+\end{itemize}
 
 %--------------------------------
 \section{Desarrollo}
