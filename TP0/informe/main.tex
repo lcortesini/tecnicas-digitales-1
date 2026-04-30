@@ -172,21 +172,37 @@ El MiniLab deberá cumplir con las siguientes características funcionales:
 El MiniLab está compuesto por 4 bloques funcionales principales:
 
 \subsubsection{Bloque de Salidas Digitales}
-Este bloque consta de 6 salidas digitales, cada una capaz de proporcionar un tanto un nivel lógico alto como bajo.
-Estas salidas se utilizan para simular diferentes combinaciones de entrada para circuitos lógicos que se deseen probar.
-Para seleccionar el estado de cada salida, se utiliza una llave de selección.
-Ademas, cada salida cuenta con un LED indicador que muestra el estado actual de la salida, facilitando la visualización de las combinaciones lógicas.
+Este bloque consta de 6 salidas digitales, cada una de las cuales puede proporcionar un nivel lógico alto o bajo.
+Estas salidas se utilizan para simular distintas combinaciones de entrada en los circuitos lógicos que se deseen probar.
+El estado de cada salida se selecciona mediante una llave.
+Además, cada salida cuenta con un LED indicador que muestra su estado actual, lo que facilita la visualización de las combinaciones lógicas.
+Cada una de estas salidas se expone a través de una bornera para su conexión al circuito en prueba.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.3\textwidth]{image/salida.png}
-    \caption{Salida digital}
-    \label{fig:salida}
+    \caption{Salida digital}\label{fig:salida}
 \end{figure}
 
-En la figura~\ref{fig:salida} se muestra el circuito esquemático de una salida digital.
+En la Figura~\ref{fig:salida} se muestra el circuito esquemático de una salida digital.
 
 \subsubsection{Bloque de Entradas Digitales}
+Este bloque incluye 6 entradas digitales.
+Cada entrada está asociada a un LED indicador que refleja su estado lógico:
+\begin{itemize}
+    \item LED apagado: lógico “0”
+    \item LED encendido: lógico “1”
+\end{itemize}
+Esto permite verificar visualmente el estado de cada una.
+Cada una de estas entradas se expone a través de una bornera para su conexión al circuito en prueba.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{image/entrada.png}
+    \caption{Entrada digital}\label{fig:entrada}
+\end{figure}
+
+En la Figura~\ref{fig:entrada} se muestra el circuito esquemático de una entrada digital.
 
 \subsection{Circuito implementado}
 
