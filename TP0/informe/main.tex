@@ -219,6 +219,21 @@ Cada una de estas entradas se expone a través de una bornera para su conexión 
 
 En la Figura~\ref{fig:entrada} se muestra el circuito esquemático de una entrada digital.
 
+\subsubsection{Bloque de Generador de Señal}
+Este bloque consiste en un generador de señal de onda cuadrada, implementado mediante un temporizador 555 configurado en modo astable.
+La frecuencia de la señal generada es ajustable mediante un potenciómetro.
+Esta señal será utilizada como señal de clock para ensayas circuitos secuenciales.
+Se incluyó un LED indicador que parpadea al ritmo de la señal generada.
+La señal de salida se expone a través de una bornera para su conexión al circuito en prueba.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{image/generador.png}
+    \caption{Generador de señal}\label{fig:generador}
+\end{figure}
+
+En la Figura~\ref{fig:generador} se muestra el circuito esquemático del generador de señal.
+
 \subsection{Circuito implementado}
 
 \textit{Incluir el esquema o una imagen del circuito armado.}
