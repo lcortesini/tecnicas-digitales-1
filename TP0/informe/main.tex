@@ -10,6 +10,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{amsmath}
+\usepackage{pdfpages}
 \usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue]{hyperref}
 
 \geometry{margin=2.5cm}
@@ -324,10 +325,8 @@ tanto para TTL(>2V) como para CMOS (>3.5V), por lo que no afecta el funcionamien
 %--------------------------------
 \section{Anexos (opcional)}
 %--------------------------------
-\ref{anexo:circuito}
 
-\textit{Agregar fotos del montaje, mediciones, u otra información relevante.}
+\includepdf[pages=-, landscape=true]{../sch/output.pdf}\label{anexo:circuito}
 
-%--------------------------------
 \end{document}
 
