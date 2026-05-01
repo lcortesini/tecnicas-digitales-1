@@ -255,8 +255,36 @@ En la figura~\ref{fig:implementacion} se muestra una imagen del circuito impleme
 \end{figure}
 
 \subsection{Funcionamiento}
+El MiniLab está diseñado de forma que permite alimentar, generar señales de reloj, y establecer entradas y salidas para
+probar circuitos digitales. A continuación se describe el flujo de funcionamiento general y cómo interactúan los distintos bloques.
 
-\textit{Explicar cómo funciona el sistema en general.}
+Primero, la alimentación se selecciona mediante el selector mostrado en la Figura~\ref{fig:selector}. Se puede elegir
+entre la alimentación desde una fuente de continua externta o una batería de 9V interna. La tensión seleccionada
+entra al regulador LM7805, que proporciona una salida estable de 5V para todo el sistema. Un LED indicador muestra
+cuando la alimentación está presente.
+
+Las salidas digitales permiten generar niveles lógicos `0` (0V) y `1` (5V) para aplicar a un circuito
+en prueba. Cada salida está controlada por una llave que selecciona el estado lógico y dispone de un LED indicador que
+refleja visualmente el nivel aplicado (Figura~\ref{fig:salida}). Las salidas se exponen mediante borneras para
+facilitar la conexión.
+
+Las entradas digitales están pensadas para recibir señales externas desde el circuito bajo prueba. Cada entrada
+incluye un LED indicador que permanece apagado para nivel lógico `0` y encendido para nivel lógico `1`
+(Figura~\ref{fig:entrada}).
+
+El generador de señal implementado con un temporizador 555 en configuración astable provee una onda cuadrada cuyo
+periodo se ajusta mediante un potenciómetro. La frecuencia ajustable (aproximadamente 1 Hz a 1 kHz) se utiliza como
+reloj para ensayar circuitos secuenciales; un LED adicional parpadea sincronizado con la señal generada
+(Figura~\ref{fig:generador}).
+
+Modo de uso típico:
+\begin{enumerate}
+    \item Seleccionar la fuente de alimentación adecuada y encender el MiniLab.
+    \item Configurar las salidas mediante sus llaves para aplicar los niveles lógicos deseados al circuito en prueba.
+    \item Si se requiere una señal de reloj, ajustar la frecuencia del generador y conectar su salida al pin de clock del circuito en prueba.
+    \item Conectar las entradas a los puntos de medida del circuito; observar los LEDs de entrada para verificar estados lógicos y analizar
+        el funcionamiento del circuito en prueba.
+\end{enumerate}
 
 %--------------------------------
 \section{Resultados}
