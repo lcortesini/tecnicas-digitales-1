@@ -171,6 +171,21 @@ El MiniLab deberá cumplir con las siguientes características funcionales:
 %\textit{Explicar cómo está compuesto el MiniLab (entradas, salidas, fuente, etc.).}
 El MiniLab está compuesto por 4 bloques funcionales principales:
 
+\subsubsection{Bloque de Fuente de Alimentación}
+Este bloque proporciona una fuente de alimentación regulada de 5V, destinada a alimentar al resto de los
+componentes del MiniLab como los circuitos que se deseen probar.
+El regulador utilizado es un LM7805, el cual garantiza una salida estable de 5V a partir de una tensión de entrada de entre 7V y 35V.
+En nuestro caso, la alimentación se realiza mediante una batería de 9V.
+Ademas, se incluyó un LED indicador que muestra el estado de la alimentación, encendiéndose cuando el sistema está energizado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{image/fuente.png}
+    \caption{Fuente de alimentación}\label{fig:fuente}
+\end{figure}
+
+En la Figura~\ref{fig:fuente} se muestra el circuito esquemático de la fuente de alimentación.
+
 \subsubsection{Bloque de Salidas Digitales}
 Este bloque consta de 6 salidas digitales, cada una de las cuales puede proporcionar un nivel lógico alto o bajo.
 Estas salidas se utilizan para simular distintas combinaciones de entrada en los circuitos lógicos que se deseen probar.
