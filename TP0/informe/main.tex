@@ -290,7 +290,24 @@ Modo de uso típico:
 \section{Resultados}
 %--------------------------------
 
-\textit{Describir qué resultados se obtuvieron. Indicar si el sistema funciona correctamente.}
+% \textit{Describir qué resultados se obtuvieron. Indicar si el sistema funciona correctamente.}
+En la Figura~\ref{fig:resultados} se muestra el funcionamiento del MiniLab, conectando las entradas con las salidas y
+verificando el estado de los LEDs indicadores.
+Los LEDs rojos indican el estado de las salidas digitales, mientras que los LEDs verdes muestran el estado de las entradas digitales.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/resultados.jpeg}
+    \caption{Resultados obtenidos al probar el MiniLab}\label{fig:resultados}
+\end{figure}
+
+En la Figura~\ref{fig:resultados} se puede observar que el sistema funciona correctamente, ya que al conectar las entradas con las salidas,
+los LEDs indicadores reflejan el estado lógico de las entradas y salidas según lo esperado.
+
+\subsection{Requerimientos no alcanzados}
+\textbf{Tensión de salida para el nivel alto:} El nivel lógico alto se estableció en 4.45V en lugar de los 5V requeridos. Esto
+es debido a la incorporación del LED indicador. Sin embargo, este nivel de tensión está dentro del rango considerado como lógico alto
+tanto para TTL(>2V) como para CMOS (>3.5V), por lo que no afecta el funcionamiento del sistema.
 
 %--------------------------------
 \section{Dificultades encontradas}
