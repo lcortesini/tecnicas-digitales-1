@@ -175,7 +175,6 @@ El MiniLab está compuesto por 4 bloques funcionales principales:
 Este bloque proporciona una fuente de alimentación regulada de 5V, destinada a alimentar al resto de los
 componentes del MiniLab como los circuitos que se deseen probar.
 El regulador utilizado es un LM7805, el cual garantiza una salida estable de 5V a partir de una tensión de entrada de entre 7V y 35V.
-En nuestro caso, la alimentación se realiza mediante una batería de 9V.
 Ademas, se incluyó un LED indicador que muestra el estado de la alimentación, encendiéndose cuando el sistema está energizado.
 
 \begin{figure}[H]
@@ -185,6 +184,15 @@ Ademas, se incluyó un LED indicador que muestra el estado de la alimentación, 
 \end{figure}
 
 En la Figura~\ref{fig:fuente} se muestra el circuito esquemático de la fuente de alimentación.
+
+El circuito puede alimentarse tanto desde una fuente de tensión continua externa, como desde una batería de 9V.
+Para esto, el circuito cuenta con una llave que permite seleccionar la fuente de alimentación deseada,
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{image/selector.png}
+    \caption{Selector de fuente de alimentación}\label{fig:selector}
+\end{figure}
 
 \subsubsection{Bloque de Salidas Digitales}
 Este bloque consta de 6 salidas digitales, cada una de las cuales puede proporcionar un nivel lógico alto o bajo.
