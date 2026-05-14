@@ -1,0 +1,470 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a5107106-ce34-4dbe-84a9-10e81b6c8817")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069d40cf-8109-44d3-a8fa-742adab251b3")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a06bf98-1628-4205-89e5-3a9e15e45627")
+	)
+	(wire
+		(pts
+			(xy 182.88 114.3) (xy 189.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38dc41a4-2109-4ce7-9874-b3905d9c19ad")
+	)
+	(wire
+		(pts
+			(xy 147.32 113.03) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b84603e-8701-4f87-ad26-6d942fd7fc0b")
+	)
+	(wire
+		(pts
+			(xy 111.76 111.76) (xy 118.11 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485583ae-6075-4b32-8276-523980d18749")
+	)
+	(wire
+		(pts
+			(xy 182.88 95.25) (xy 189.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d3b1e8-96de-44e8-a6b4-3e497474a4e4")
+	)
+	(hierarchical_label "D_OUT4"
+		(shape output)
+		(at 118.11 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "026a3a11-ff2c-43d7-9607-08bef89c1ceb")
+	)
+	(hierarchical_label "D_OUT2"
+		(shape output)
+		(at 153.67 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ccd1c01-e7fd-4318-ad11-c484a58ca021")
+	)
+	(hierarchical_label "D_OUT6"
+		(shape output)
+		(at 189.23 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0fc4817-fbf3-466c-bbef-6cbc06db07d9")
+	)
+	(hierarchical_label "D_OUT3"
+		(shape output)
+		(at 189.23 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6897a2a-6188-4de4-a915-6b0b8a013948")
+	)
+	(hierarchical_label "D_OUT5"
+		(shape output)
+		(at 153.67 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4554377-2e58-4159-b112-1629de3b3ca7")
+	)
+	(hierarchical_label "D_OUT1"
+		(shape output)
+		(at 118.11 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "faaf46f1-08e4-489a-a50c-b98cadbd8d1b")
+	)
+	(sheet
+		(at 166.37 91.44)
+		(size 16.51 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "434a850e-fbc5-4426-9a88-a2b1115585e9")
+		(property "Sheetname" "Salida Digital2"
+			(at 166.37 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "salida.kicad_sch"
+			(at 166.37 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D_OUT" output
+			(at 182.88 95.25 0)
+			(uuid "e0a9724b-4b4a-4204-91a5-487e303f268b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MiniLab"
+				(path "/9d7a1f0f-be2a-4650-bdfd-79562484ee87/58b1d6ca-0a6d-4c4d-b4cb-c70b6c1e55ef"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 110.49)
+		(size 16.51 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "59d0a317-4d5b-4578-925d-b00270ddd7e1")
+		(property "Sheetname" "Salida Digital5"
+			(at 166.37 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "salida.kicad_sch"
+			(at 166.37 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D_OUT" output
+			(at 182.88 114.3 0)
+			(uuid "70750c61-8adb-4be1-a116-e4a5709dc3f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MiniLab"
+				(path "/9d7a1f0f-be2a-4650-bdfd-79562484ee87/58b1d6ca-0a6d-4c4d-b4cb-c70b6c1e55ef"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 107.95)
+		(size 16.51 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd1e6689-1f25-4391-b1ab-2e1ac33841bd")
+		(property "Sheetname" "Salida Digital3"
+			(at 95.25 107.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "salida.kicad_sch"
+			(at 95.25 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D_OUT" output
+			(at 111.76 111.76 0)
+			(uuid "4ef030b6-f17a-45e7-a316-651c551172b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MiniLab"
+				(path "/9d7a1f0f-be2a-4650-bdfd-79562484ee87/58b1d6ca-0a6d-4c4d-b4cb-c70b6c1e55ef"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 88.9)
+		(size 16.51 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd9c5c8d-ff4b-4085-968f-f13961f26f7c")
+		(property "Sheetname" "Salida Digital"
+			(at 95.25 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "salida.kicad_sch"
+			(at 95.25 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D_OUT" output
+			(at 111.76 92.71 0)
+			(uuid "65ca42e2-c7ba-45b3-ba8d-9cacfda8082a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MiniLab"
+				(path "/9d7a1f0f-be2a-4650-bdfd-79562484ee87/58b1d6ca-0a6d-4c4d-b4cb-c70b6c1e55ef"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 109.22)
+		(size 16.51 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cfbbbf19-4d99-4b24-91e4-b31ffa3770a0")
+		(property "Sheetname" "Salida Digital4"
+			(at 130.81 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "salida.kicad_sch"
+			(at 130.81 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D_OUT" output
+			(at 147.32 113.03 0)
+			(uuid "36f2eb59-51bb-442d-af08-0f000a59809e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MiniLab"
+				(path "/9d7a1f0f-be2a-4650-bdfd-79562484ee87/58b1d6ca-0a6d-4c4d-b4cb-c70b6c1e55ef"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 90.17)
+		(size 16.51 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d4605af2-c468-4199-a3b5-1a49210c87cd")
+		(property "Sheetname" "Salida Digital1"
+			(at 130.81 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "salida.kicad_sch"
+			(at 130.81 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D_OUT" output
+			(at 147.32 93.98 0)
+			(uuid "26ec47f5-0c7d-404b-8a14-dc975d52dea5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MiniLab"
+				(path "/9d7a1f0f-be2a-4650-bdfd-79562484ee87/58b1d6ca-0a6d-4c4d-b4cb-c70b6c1e55ef"
+					(page "6")
+				)
+			)
+		)
+	)
+)
