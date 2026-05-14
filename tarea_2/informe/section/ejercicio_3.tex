@@ -1,0 +1,50 @@
+\section{Ejercicio 3}
+
+$$
+F(x,y,z) = \sum(0,2,4,6)
+$$
+
+\subsection{Expresión mínima}
+
+\begin{figure}[H]
+    \centering
+    \begin{karnaugh-map}[2][4][1][$z$][$y$][$x$]
+        \centering
+        \minterms{0,2,4,6}
+        \implicant{0}{4}
+    \end{karnaugh-map}
+    \caption{Mapa de Karnaugh para la función}
+\end{figure}
+
+$$
+F(x,y,z) = \overline{z}
+$$
+
+\subsection{Simulación en Falstad}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/Falstad/ej3.png}
+    \caption{Simulación de la función en Falstad}
+\end{figure}
+
+\subsection{Descripción en Verilog}
+
+\begin{Verbatim}[ frame=single, fontsize=\small, baselinestretch=1.2 ]
+module ej3 (
+    input x,
+    input y,
+    input z,
+    output F
+);
+
+assign F = ~z;
+
+endmodule
+\end{Verbatim}
+
+\subsection{Captura del RTL}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/Xilinx/ej3.png}
+    \caption{Captura del RTL en Xilinx}
+\end{figure}
