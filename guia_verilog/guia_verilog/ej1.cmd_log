@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.syr" 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.syr" 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-5 ej1.ngc ej1.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ej1.ngd 
+XSLTProcess ej1_build.xml 
+tsim -intstyle ise ej1 ej1.nga 
+taengine -intstyle ise -f ej1 -w --format html1 -l ej1_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n ej1 -i ej1 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-5 ej1.ngc ej1.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ej1.ngd 
+XSLTProcess ej1_build.xml 
+tsim -intstyle ise ej1 ej1.nga 
+hprep6 -s IEEE1149 -n ej1 -i ej1 
+vhdtdtfi -lib work /home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.v -lang verilog -prj guia_verilog -o ej1.spl -module ej1 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl ej1.spl /home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.sym 
+vhdtdtfi -lang verilog -prj guia_verilog -o /home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.tfi -lib work /home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog//ej1.v -module ej1 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/guia_verilog/ej1.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-5 ej1.ngc ej1.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ej1.ngd 
+XSLTProcess ej1_build.xml 
+tsim -intstyle ise ej1 ej1.nga 
+hprep6 -s IEEE1149 -n ej1 -i ej1 
