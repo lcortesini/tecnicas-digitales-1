@@ -1,0 +1,10 @@
+[Inputs]
+x
+y
+z
+[Outputs]
+F
+[BiDir]
+[ATTRIBUTES]
+VeriModel b
+

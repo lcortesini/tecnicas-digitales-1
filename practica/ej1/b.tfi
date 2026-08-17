@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+b instance_name (
+    .x(x), 
+    .y(y), 
+    .z(z), 
+    .F(F)
+    );
+
+

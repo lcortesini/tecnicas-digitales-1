@@ -1,0 +1,7 @@
+vhdtdtfi -lang verilog -prj ej1 -o /home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/b.tfi -lib work /home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1//b.v -module b -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work /home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/b.v -lang verilog -prj ej1 -o b.spl -module b -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a b.spl /home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/b.sym 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/b.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/b.syr" 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/b.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/b.syr" 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/b.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/b.syr" 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/b.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/b.syr" 

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/meses.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/meses.syr" 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/meses.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/meses.syr" 

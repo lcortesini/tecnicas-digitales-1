@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/d.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/d.syr" 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/d.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/d.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 d.ngc d.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o d_map.ncd d.ngd d.pcf 
+par -w -intstyle ise -ol high -t 1 d_map.ncd d.ncd d.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml d.twx d.ncd -o d.twr d.pcf 

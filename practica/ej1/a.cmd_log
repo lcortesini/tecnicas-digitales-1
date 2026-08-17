@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.syr" 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.syr" 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 a.ngc a.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -t 1 a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 a.ngc a.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -t 1 a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.syr" 
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 a.ngc a.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -t 1 a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf 

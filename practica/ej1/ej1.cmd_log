@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/ej1.xst" -ofn "/home/corte/Documents/utn/tecnicas-digitales-1/practica/ej1/ej1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 ej1.ngc ej1.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ej1_map.ncd ej1.ngd ej1.pcf 
+par -w -intstyle ise -ol high -t 1 ej1_map.ncd ej1.ncd ej1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ej1.twx ej1.ncd -o ej1.twr ej1.pcf 
